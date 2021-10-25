@@ -25,6 +25,27 @@ namespace Program
             n3.AddChildren(n7);
 
             // visitar el árbol aquí
+
+            Persona padre = new Persona("AAA", 39);
+
+            Persona h1 = new Persona("ABA", 20);
+            Persona h2 = new Persona("ABB", 19);
+            Persona h3 = new Persona("ABC", 18);
+            Persona h4 = new Persona("ACA0", 17);
+            Persona h5 = new Persona("ACB", 16);
+            Persona h6 = new Persona("BAA", 15);
+            Persona h7 = new Persona("BAB", 14);
+            Persona h8 = new Persona("BAC", 13);
+
+            padre.AddChildren(h1);
+            padre.AddChildren(h2);
+            padre.AddChildren(h3);
+            padre.AddChildren(h4);
+            padre.AddChildren(h5);
+            padre.AddChildren(h6);
+            padre.AddChildren(h7);
+            padre.AddChildren(h8);
+            
         }
     }
 }
